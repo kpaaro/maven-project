@@ -9,11 +9,14 @@ public class Greeter {
    * This is a constructor.
    */
   public Greeter() {
-		//texts
+		
   }
 
-  //TODO: Add javadoc comment
-  public String greet(String someone) {
+  /**
+   * This is a greet.
+   */
+  public final String greet(final String someone) {
     return String.format("Hello, %s!", someone);
   }
 }
+
