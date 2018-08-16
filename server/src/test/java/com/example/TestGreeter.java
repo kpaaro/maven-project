@@ -12,9 +12,9 @@ public class TestGreeter {
 
   private Greeter greeter;
 
-  @Before
-  public void setup() {
-    greeter = new Greeter();
+  @Before 
+    public void setup() {
+        greeter = new Greeter();
   }
 
   @Test
